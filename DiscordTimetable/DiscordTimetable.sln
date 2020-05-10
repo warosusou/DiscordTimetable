@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscordTimetable", "DiscordTimetable\DiscordTimetable.csproj", "{DE73E806-DB6D-4115-8844-990DBD4A80EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE73E806-DB6D-4115-8844-990DBD4A80EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE73E806-DB6D-4115-8844-990DBD4A80EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE73E806-DB6D-4115-8844-990DBD4A80EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE73E806-DB6D-4115-8844-990DBD4A80EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {761B1063-6E3B-4246-BB1F-88B363DD185B}
+	EndGlobalSection
+EndGlobal
