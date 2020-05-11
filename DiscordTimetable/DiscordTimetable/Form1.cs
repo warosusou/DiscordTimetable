@@ -76,15 +76,20 @@ namespace DiscordTimetable
             var t = new Timestamps();
             client.SetPresence(new RichPresence()
             {
-                State = state
+                State = state,
+                Assets = new Assets()
+                {
+                    LargeImageKey = "daigaku",
+                    LargeImageText = "だいがく",
+                }
             }) ;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             timer1.Enabled = false;
-            var d = new DateTime(1, 1, 1, DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second);
-            //var d = new DateTime(1, 1, 1, 9, 44, 0);
+            //var d = new DateTime(1, 1, 1, DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second);
+            var d = new DateTime(1, 1, 1, 9, 44, 0);
             for (int i = 0; i < TimeSchedule.StartingTimes.Count; i++)
             {
                 var t = TimeSchedule.StartingTimes.ElementAt(i);
